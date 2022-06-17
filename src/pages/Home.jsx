@@ -8,8 +8,8 @@ function Home() {
   return (
     <div>
       <HeadImage />
-      <Cards />
       <NavBar />
+      <Cards />
     </div>
   );
 }
