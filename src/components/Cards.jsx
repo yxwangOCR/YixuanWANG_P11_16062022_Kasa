@@ -14,10 +14,11 @@ function Cards() {
               <div key={item.id}>
                 <h4>{item.title}</h4>
                 <p>{item.description}</p>
-                <image>{item.cover}</image>
+                <img src={item.cover} alt={item.title} />
               </div>
             </Card>
           );
+          console.log(item.title);
         })}
       </Wrapper>
     </div>
@@ -32,6 +33,9 @@ const Wrapper = styled.div`
 const Card = styled.div`
   display: flex;
   gap: 10px;
+  img {
+    border-radius: 5px;
+  }
 `;
 
 export default Cards;
