@@ -11,14 +11,8 @@ const House = () => {
 function ImageSlider() {
   return (
     <>
-      {Data.map((item) => {
-        
-        return (
-          <div key={item.id}>
-            <img src={House.pictures} alt={House.title} />;)
-            </div>
-      })}
       <div className='image-slider'>Image-slider</div>
+      <h2 className='house-title'>House title</h2>
     </>
   );
 }

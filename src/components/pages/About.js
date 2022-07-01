@@ -1,7 +1,14 @@
 import React from "react";
+import HeroSectionAbout from "../HeroSectionAbout";
+import Accordion from "../Accordion";
 
 function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <HeroSectionAbout />
+      <Accordion />
+    </div>
+  );
 }
 
 export default About;

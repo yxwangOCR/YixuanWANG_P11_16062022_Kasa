@@ -1,11 +1,15 @@
 .image-slider {
   background: red;
   width: 95%;
-  height: 415px;
+  height: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 2rem auto;
   border-radius: 25px;
   position: relative;
+}
+
+.house-title {
+  margin: 4rem;
 }
