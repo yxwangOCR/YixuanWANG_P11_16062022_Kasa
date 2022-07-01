@@ -1,12 +1,12 @@
 import React from "react";
 import ImageSlider from "../ImageSlider";
-import Accordion from "../Accordion";
+import AccordionHouse from "../AccordionHouse";
 
 function House() {
   return (
     <>
       <ImageSlider />
-      <Accordion />
+      <AccordionHouse />
     </>
   );
 }
