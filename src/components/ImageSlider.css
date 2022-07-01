@@ -1,4 +1,4 @@
-.image-slider {
+.image-slider-container {
   background: red;
   width: 95%;
   height: 650px;
@@ -12,4 +12,9 @@
 
 .house-title {
   margin: 4rem;
+}
+
+.slide-image {
+  width: 95%;
+  height: 650px;
 }
