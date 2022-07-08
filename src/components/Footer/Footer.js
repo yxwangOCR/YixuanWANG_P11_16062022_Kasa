@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import K from "../images/K-letter.png";
-import Vector from "../images/Vector.png";
-import S from "../images/S-letter.png";
-import A from "../images/A-letter.png";
+import K from "../../images/K-letter.png";
+import Vector from "../../images/Vector.png";
+import S from "../../images/S-letter.png";
+import A from "../../images/A-letter.png";
 
 function Footer() {
   return (

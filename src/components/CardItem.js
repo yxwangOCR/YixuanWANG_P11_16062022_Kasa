@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Data from "../data/data.json";
-import "./Cards.css";
+import "./Cards/Cards.css";
 
 function CardItem() {
   return (

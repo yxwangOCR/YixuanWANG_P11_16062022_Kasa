@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Home from "./components/pages/Home";
-import House from "./components/pages/House";
-import Error from "./components/pages/Error";
-import About from "./components/pages/About";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home";
+import House from "./pages/House";
+import Error from "./pages/Error";
+import About from "./pages/About";
 import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
 import "./App.css";
 
@@ -23,7 +23,7 @@ function App() {
           <Route path='/house/:id' element={<House />} />
           <Route path='/error' element={<Error />} />
           <Route path='/about' element={<About />} />
-          <Route path='*' element={<House />} />
+          <Route path='*' element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>

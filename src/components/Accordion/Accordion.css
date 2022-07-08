@@ -1,6 +1,11 @@
-.accordion {
-  width: 900px;
-  height: 100vh;
+.accordion-container {
+  display: flex;
+  min-height: 25rem;
+}
+
+.accordion-house {
+  width: 42%;
+  height: 100%;
   margin: 2rem auto;
 }
 
@@ -8,6 +13,21 @@
   background: #f6f6f6;
   border-radius: 10px;
   margin-bottom: 2rem;
+}
+
+.accordion-house-title {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6060;
+  padding: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+span {
+  font-size: 3rem;
 }
 
 .accordion-title {
@@ -23,21 +43,20 @@
 
 .accordion-content {
   color: #ff6060;
-  padding: 5px 20px;
   max-height: 0;
   display: none;
   overflow: hidden;
-  transition: all 0.5s;
 }
 
 .accordion-content.show {
   max-height: 100vh;
+  text-align: justify;
   display: block;
-  transition: all 0.5s;
+  padding: 1.5rem;
 }
 
-span {
-  font-size: 2rem;
+.accordion-about-container {
+  min-height: 60vh;
 }
 
 @media only screen and (min-width: 1200px) {
