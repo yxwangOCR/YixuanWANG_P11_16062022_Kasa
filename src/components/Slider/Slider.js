@@ -4,11 +4,13 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 function Slider({ pictures }) {
   const [current, setCurrent] = useState(0);
+  const length = pictures.length;
+
   const prev = () => {
-    setCurrent(current - 1);
+    setCurrent(current === 0 ? length - 1 : current - 1);
   };
   const next = () => {
-    setCurrent(current + 1);
+    setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
   return (
