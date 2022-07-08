@@ -15,7 +15,7 @@
       "name": "Nathalie Jean",
       "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
     },
-    "rating": "5",
+    "rating": "3",
     "location": "Ile de France - Paris 17e",
     "equipments": [
       "Équipements de base",
@@ -118,7 +118,7 @@
       "name": "Franck Maher",
       "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
     },
-    "rating": "5",
+    "rating": "4",
     "location": "Ile de France - Paris 10e",
     "equipments": [
       "Frigo Américain",
@@ -145,7 +145,7 @@
       "name": "Line Rolland",
       "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
     },
-    "rating": "5",
+    "rating": "2",
     "location": "Ile de France - Paris 18e",
     "equipments": ["Chambre Séparée", "Parking"],
     "tags": ["Montmartre", "Culture", "Charme"]

@@ -7,6 +7,13 @@ import "./HouseDetails.css";
 function HouseDetails() {
   const { id } = useParams();
   const house = Data.find((item) => item.id === id);
+  const starColor = {
+    red: "#ff6060",
+    grey: "#E3E3E3",
+  };
+
+  const stars = Array(5).fill(0);
+
   return (
     <div className='house-infos-container'>
       <div className='house-infos-details'>
@@ -25,11 +32,15 @@ function HouseDetails() {
           <img className='host-profil' src={house.host.picture}></img>
         </div>
         <div className='host-rating'>
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
+          <div className='stars'>
+            {stars.map((_, index) => (
+              <FaStar
+                key={index}
+                className='stars'
+                color={house.rating > index ? starColor.red : starColor.grey}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
