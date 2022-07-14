@@ -12,6 +12,7 @@ const HouseId = () => {
   const { id } = useParams();
   return <div>House {id}</div>;
 };
+console.log(HouseId());
 
 function App() {
   return (
