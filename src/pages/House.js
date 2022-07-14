@@ -19,7 +19,7 @@ function House() {
         <Accordion title='Description'>{house.description}</Accordion>
         <Accordion title='Equipements'>
           {house.equipments.map((item) => (
-            <div key={item.id}>{item}</div>
+            <div key={item}>{item}</div>
           ))}
         </Accordion>
       </div>

@@ -21,7 +21,7 @@ function HouseDetails() {
         <span className='house-location'>{house.location}</span>
         <div className='house-tags'>
           {house.tags.map((tag) => (
-            <div className='tag' key={tag.id}>
+            <div className='tag' key={tag}>
               {tag}
             </div>
           ))}
