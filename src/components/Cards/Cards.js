@@ -10,7 +10,10 @@ function Cards() {
         <li className='card-item'>
           {Data.map((item) => {
             return (
-              <Link to={`/house/${item.id}`} className='house-link'>
+              <Link
+                to={`/house/${item.id}`}
+                className='house-link'
+                key={item.id}>
                 <img
                   src={item.cover}
                   alt={item.title}

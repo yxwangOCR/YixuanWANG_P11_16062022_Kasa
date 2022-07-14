@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import Data from "../data/data.json";
 import Slider from "../components/Slider/Slider";
 import HouseDetails from "../components/HouseDetails/HouseDetails";
@@ -9,6 +9,8 @@ function House() {
   const { id } = useParams();
   const house = Data.find((item) => item.id === id);
 
+  if (!house) return <Navigate to='/404' />;
+
   return (
     <div>
       <Slider pictures={house.pictures} />
@@ -17,7 +19,7 @@ function House() {
         <Accordion title='Description'>{house.description}</Accordion>
         <Accordion title='Equipements'>
           {house.equipments.map((item) => (
-            <div>{item}</div>
+            <div key={item.id}>{item}</div>
           ))}
         </Accordion>
       </div>

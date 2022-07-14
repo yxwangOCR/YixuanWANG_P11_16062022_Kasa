@@ -8,7 +8,11 @@ function Home() {
     <>
       <div className='hero-container'>
         <h1>Chez vous, partout et ailleurs</h1>
-        <img src={HeroSectionImage} className='hero-section-image' />
+        <img
+          src={HeroSectionImage}
+          className='hero-section-image'
+          alt='home-background'
+        />
       </div>
 
       <Cards />

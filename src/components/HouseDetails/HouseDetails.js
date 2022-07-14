@@ -21,7 +21,9 @@ function HouseDetails() {
         <span className='house-location'>{house.location}</span>
         <div className='house-tags'>
           {house.tags.map((tag) => (
-            <div className='tag'>{tag}</div>
+            <div className='tag' key={tag.id}>
+              {tag}
+            </div>
           ))}
         </div>
       </div>
@@ -29,7 +31,7 @@ function HouseDetails() {
       <div className='house-host-rating'>
         <div className='host-infos-container'>
           <span className='host-name'>{house.host.name}</span>
-          <img className='host-profil' src={house.host.picture}></img>
+          <img className='host-profil' alt='house' src={house.host.picture} />
         </div>
         <div className='host-rating'>
           <div className='stars'>

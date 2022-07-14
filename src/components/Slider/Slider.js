@@ -14,21 +14,15 @@ function Slider({ pictures }) {
   };
 
   return (
-    <>
-      <div className='sliders'>
-        <img
-          src={pictures[current]}
-          alt='House-Image'
-          className='slide-image'
-        />
-        <FaChevronLeft onClick={prev} className='left-arrow'>
-          Prev
-        </FaChevronLeft>
-        <FaChevronRight onClick={next} className='right-arrow'>
-          Next
-        </FaChevronRight>
-      </div>
-    </>
+    <div className='sliders'>
+      <img src={pictures[current]} className='slide-image' alt='slides' />
+      <FaChevronLeft onClick={prev} className='left-arrow'>
+        Prev
+      </FaChevronLeft>
+      <FaChevronRight onClick={next} className='right-arrow'>
+        Next
+      </FaChevronRight>
+    </div>
   );
 }
 
