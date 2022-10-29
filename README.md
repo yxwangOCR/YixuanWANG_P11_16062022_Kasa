@@ -2,6 +2,7 @@
 
 Develop a new web platform for a company called Kasa, which has been in the business of renting apartments for almost 10 years now.
 With more than 500 ads posted every day, Kasa is one of the leaders in apartment rentals in France.
+
 [![HTML](https://img.shields.io/badge/HTML-HyperText%20Markup%20Language-orange)](https://developer.mozilla.org/fr/docs/Learn/HTML)
 [![CSS](https://img.shields.io/badge/CSS-Cascading%20Style%20Sheets-blue)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JS-JavaScript-yellow)](https://www.javascript.com/)
