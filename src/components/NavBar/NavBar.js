@@ -22,6 +22,16 @@ function NavBar() {
               A Propos
             </Link>
           </li>
+          <li className="nav-item">
+          <a
+          href="https://github.com/yxwangOCR/YixuanWANG_P11_16062022_Kasa"
+          rel="noopener"
+              target="blank"
+              className="gitHub__link"
+        >
+          Code on GitHub
+        </a>
+          </li>
         </ul>
       </div>
     </nav>
