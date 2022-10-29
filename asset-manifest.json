@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/YixuanWANG_P11_16062022_Kasa/static/css/main.fd33c475.css",
+    "main.js": "/YixuanWANG_P11_16062022_Kasa/static/js/main.69fc4573.js",
+    "static/media/HeroSectionAbout.png": "/YixuanWANG_P11_16062022_Kasa/static/media/HeroSectionAbout.7a1f658795402f5b42b5.png",
+    "static/media/HeroSection.png": "/YixuanWANG_P11_16062022_Kasa/static/media/HeroSection.f46f389e6fc9720c5bb3.png",
+    "static/media/logo.png": "/YixuanWANG_P11_16062022_Kasa/static/media/logo.26ccf897ca05d9192611.png",
+    "index.html": "/YixuanWANG_P11_16062022_Kasa/index.html",
+    "main.fd33c475.css.map": "/YixuanWANG_P11_16062022_Kasa/static/css/main.fd33c475.css.map",
+    "main.69fc4573.js.map": "/YixuanWANG_P11_16062022_Kasa/static/js/main.69fc4573.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd33c475.css",
+    "static/js/main.69fc4573.js"
+  ]
+}
