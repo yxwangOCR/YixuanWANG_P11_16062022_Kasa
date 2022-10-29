@@ -14,12 +14,12 @@ function Slider({ pictures }) {
   };
 
   return (
-    <div className='sliders'>
-      <img src={pictures[current]} className='slide-image' alt='slides' />
-      <FaChevronLeft onClick={prev} className='left-arrow'>
+    <div className="sliders">
+      <img src={pictures[current]} className="slide-image" alt="slides" />
+      <FaChevronLeft onClick={prev} className="left-arrow">
         Prev
       </FaChevronLeft>
-      <FaChevronRight onClick={next} className='right-arrow'>
+      <FaChevronRight onClick={next} className="right-arrow">
         Next
       </FaChevronRight>
     </div>

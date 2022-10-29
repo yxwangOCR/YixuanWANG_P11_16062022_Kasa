@@ -2,7 +2,6 @@ import React from "react";
 import "./Accordion.css";
 import { useState } from "react";
 
-
 function Accordion({ title, children }) {
   const [open, setOpen] = useState(false);
   const toggle = () => {
@@ -10,9 +9,9 @@ function Accordion({ title, children }) {
   };
 
   return (
-    <div className='accordion-house'>
-      <div className='item'>
-        <div className='accordion-house-title' onClick={toggle}>
+    <div className="accordion-house">
+      <div className="item">
+        <div className="accordion-house-title" onClick={toggle}>
           <h2>{title}</h2>
           <span>{open ? "-" : "+"}</span>
         </div>

@@ -10,14 +10,14 @@ function About() {
       <div>
         <img
           src={HeroSectionAboutImage}
-          className='hero-section-image'
-          alt='about-background'
+          className="hero-section-image"
+          alt="about-background"
         />
       </div>
-      <div className='accordion-about-container'>
+      <div className="accordion-about-container">
         {DataAbout.map((dataAbout) => {
           return (
-            <div className='accordion-about' key={dataAbout.id}>
+            <div className="accordion-about" key={dataAbout.id}>
               <Accordion title={dataAbout.title}>{dataAbout.content}</Accordion>
             </div>
           );

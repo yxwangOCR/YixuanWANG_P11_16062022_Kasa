@@ -6,12 +6,12 @@ import HeroSectionImage from "../images/HeroSection.png";
 function Home() {
   return (
     <>
-      <div className='hero-container'>
+      <div className="hero-container">
         <h1>Chez vous, partout et ailleurs</h1>
         <img
           src={HeroSectionImage}
-          className='hero-section-image'
-          alt='home-background'
+          className="hero-section-image"
+          alt="home-background"
         />
       </div>
 

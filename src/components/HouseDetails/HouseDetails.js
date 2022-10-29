@@ -15,30 +15,30 @@ function HouseDetails() {
   const stars = Array(5).fill(0);
 
   return (
-    <div className='house-infos-container'>
-      <div className='house-infos-details'>
-        <h2 className='house-title'>{house.title}</h2>
-        <span className='house-location'>{house.location}</span>
-        <div className='house-tags'>
+    <div className="house-infos-container">
+      <div className="house-infos-details">
+        <h2 className="house-title">{house.title}</h2>
+        <span className="house-location">{house.location}</span>
+        <div className="house-tags">
           {house.tags.map((tag) => (
-            <div className='tag' key={tag}>
+            <div className="tag" key={tag}>
               {tag}
             </div>
           ))}
         </div>
       </div>
 
-      <div className='house-host-rating'>
-        <div className='host-infos-container'>
-          <span className='host-name'>{house.host.name}</span>
-          <img className='host-profil' alt='house' src={house.host.picture} />
+      <div className="house-host-rating">
+        <div className="host-infos-container">
+          <span className="host-name">{house.host.name}</span>
+          <img className="host-profil" alt="house" src={house.host.picture} />
         </div>
-        <div className='host-rating'>
-          <div className='stars'>
+        <div className="host-rating">
+          <div className="stars">
             {stars.map((_, index) => (
               <FaStar
                 key={index}
-                className='stars'
+                className="stars"
                 color={house.rating > index ? starColor.red : starColor.grey}
               />
             ))}

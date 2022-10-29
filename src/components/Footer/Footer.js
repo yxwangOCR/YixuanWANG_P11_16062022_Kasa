@@ -7,13 +7,13 @@ import A from "../../images/A-letter.png";
 
 function Footer() {
   return (
-    <div className='footer'>
-      <div className='footer-container'>
-        <div className='logo-image'>
-          <img src={K} alt='K-letter' className='K-letter' />
-          <img src={Vector} alt='Vector' className='Vector' />
-          <img src={S} alt='S-letter' className='S-letter' />
-          <img src={A} alt='A-letter' className='A-letter' />
+    <div className="footer">
+      <div className="footer-container">
+        <div className="logo-image">
+          <img src={K} alt="K-letter" className="K-letter" />
+          <img src={Vector} alt="Vector" className="Vector" />
+          <img src={S} alt="S-letter" className="S-letter" />
+          <img src={A} alt="A-letter" className="A-letter" />
         </div>
         <p>© 2020 Kasa. All rights reserved</p>
       </div>

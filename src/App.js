@@ -20,10 +20,10 @@ function App() {
         <NavBar />
         <Routes>
           <Route index element={<Home />} />
-          <Route path='/house/:id' element={<House />} />
-          <Route path='/error' element={<Error />} />
-          <Route path='/about' element={<About />} />
-          <Route path='*' element={<Error />} />
+          <Route path="/house/:id" element={<House />} />
+          <Route path="/error" element={<Error />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>

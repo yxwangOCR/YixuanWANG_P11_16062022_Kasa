@@ -4,12 +4,14 @@ import "./HeroSection.css";
 
 function HeroSection() {
   return (
-    <div className='error-container'>
-      <span className='letter-404'>404</span>
-      <p className='message-404'>
+    <div className="error-container">
+      <span className="letter-404">404</span>
+      <p className="message-404">
         Oups! La page que vous demandez n'existe pas.
       </p>
-      <Link to='/' className='link-back-to-home'>Retourner sur la page d’accueil</Link>
+      <Link to="/" className="link-back-to-home">
+        Retourner sur la page d’accueil
+      </Link>
     </div>
   );
 }
